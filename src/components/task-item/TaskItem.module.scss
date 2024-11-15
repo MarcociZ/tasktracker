@@ -1,0 +1,36 @@
+.root {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid rgba(176, 176, 176, 0.955);
+    background-color: rgb(215, 215, 215);
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.taskCard {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 4px 0px;
+}
+
+.h2 {
+    margin: 2px 0px;
+    color: rgb(97, 95, 95);
+}
+
+.button {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.add {
+    border-radius: 5px;
+    border-color: rgb(67, 66, 66);
+    background-color: red;
+    color: white;
+    padding: 16px 32px;
+    
+}

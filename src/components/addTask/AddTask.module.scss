@@ -1,0 +1,36 @@
+.root {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid rgba(176, 176, 176, 0.955);
+    border-radius: 5px;
+    margin: 0;
+}
+
+.task {
+    display: flex;
+    flex-flow: column;
+    margin: 8px 0px;
+}
+
+.date {
+    margin: 8px 0px;
+}
+
+.time {
+    margin: 8px 0px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.add {
+    border-radius: 5px;
+    border-color: gray;
+    background-color: green;
+    color: white;
+    padding: 8px 16px;
+    
+}
